@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* 
+  In Tailwind v4, we use @source to tell the compiler where to look for classes, 
+  instead of the old 'content' array in tailwind.config.ts 
+*/
+@source "../components";
+@source "../app";
+@source "../pages";
